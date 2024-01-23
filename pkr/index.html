@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="tailwind.config.js"></script>
+</head>
+
+<body>
+    <header class="border-b border-gray-300 py-4">
+        <div class="container mx-auto flex items-center justify-between relative">
+            <img src="./header-left-dot-pattern.svg" alt="DOt" width="88" class="absolute right-full -top-4 mr-12">
+            <img src="header-right-shapes.svg" alt="shapes" class="absolute left-full -top-4 ml-12">
+            <img src="/logo.svg" alt="logo" width="291">
+            <nav>
+                <ul class="flex items-center">
+                    <li>
+                        <a href="" class="px-4 py-2 transition
+                        hover:bg-gray-200 rounded-md active bg-gradient-to-r
+                        border-t-2 border-indigo-400
+                        from-purple-500 to-indigo-600 hover:from-green-600
+                        hover:via-blue-700 hover:to-purple-700 text-white flex md:inline-flex font-medium text-lg
+                        cursor-pointer hover:shadow-lg">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="w-6 h-6 mr-2">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M18 7.5v3m0 0v3m0-3h3m-3 0h-3m-2.25-4.125a3.375 3.375 0 1 1-6.75 0 3.375 3.375 0 0 1 6.75 0ZM3 19.235v-.11a6.375 6.375 0 0 1 12.75 0v.109A12.318 12.318 0 0 1 9.374 21c-2.331 0-4.512-.645-6.374-1.766Z" />
+                            </svg>
+                            Free Sign up
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section class="hero py-4 md:py-24 relative">
+        <img src="./Group 6.svg" alt="herodots" width="118" class="absolute right-8 top-8">
+        <div class="container mx-auto items-center
+        justify-between relative text-center">
+            <h1 class="text-4xl md:text-7xl relative text-transparent
+        bg-clip-text bg-gradient-to-r from-green-400
+        to-purple-400 block text-center"><span class="font-bold">AI</span> to write code, blogs & more</h1>
+            <p class="md:text-2xl  text-gray-500 text-center
+       max-w-3xl mx-auto mt-4">Enhance everything you do by using the latest from OpenAI to solve problems, write
+                solutions and make life easier.</p>
+            <a href="" class="px-4 py-3 md:px-10 md:py-5 
+           md:text-2xl transition
+    hover:bg-gray-200 rounded-3xl active
+    bg-gradient-to-r border-t-2 border-green-400 from-green-500 to-blue-600
+    hover:from-green-600 hover:via-blue-700
+    hover:to-purple-700 text-white
+     cursor-pointer hover:shadow-lg
+      inline-flex items-center mt-8">Get Started</a>
+        </div>
+    </section>
+    <section class="relative py-4 z-50">
+        <div class="container mx-auto">
+            <div class="rounded-2xl shadow-2xl border flex
+            divide-x bg-white">
+                <div class="p-8 flex-1">
+                    <div class="flex">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="w-12 h-12 mr-4">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M7.5 8.25h9m-9 3H12m-9.75 1.51c0 1.6 1.123 2.994 2.707 3.227 1.129.166 2.27.293 3.423.379.35.026.67.21.865.501L12 21l2.755-4.133a1.14 1.14 0 0 1 .865-.501 48.172 48.172 0 0 0 3.423-.379c1.584-.233 2.707-1.626 2.707-3.228V6.741c0-1.602-1.123-2.995-2.707-3.228A48.394 48.394 0 0 0 12 3c-2.392 0-4.744.175-7.043.513C3.373 3.746 2.25 5.14 2.25 6.741v6.018Z" />
+                        </svg>
+                        <h2 class="text-4xl font-medium">
+                            Explain Code
+                        </h2>
+                    </div>
+                    <p class="text-gray-600 text-lg mt-2">
+                        Explain some code based on the syntax provid
+                    </p>
+                    <h3 class="mt-6 text-lg font-bold">
+                        Paste your code below:
+                    </h3>
+                    <div class="bg-gray-100 py-4 rounded-md mt-2 h-44 text-xl">
+                        <span class="text-purple-600">function</span><span class="text-red-600">
+                            HelloWorld</span>(text){<br>
+                        echo text ||<span class="text-green-500"> "Hello World"</span>; <br>
+                        }
+                    </div>
+                    <a href="" class="mt-16 py-4 px-8 transition
+                        hover:bg-gray-200 rounded-xl active bg-gradient-to-r
+                        from-purple-500 to-indigo-600 hover:from-green-600
+                        hover:via-blue-700 hover:to-purple-700 text-white
+                         flex md:inline-flex font-medium text-lg
+                        cursor-pointer hover:shadow-lg">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="w-6 h-6 mr-4">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M15.75 17.25v3.375c0 .621-.504 1.125-1.125 1.125h-9.75a1.125 1.125 0 0 1-1.125-1.125V7.875c0-.621.504-1.125 1.125-1.125H6.75a9.06 9.06 0 0 1 1.5.124m7.5 10.376h3.375c.621 0 1.125-.504 1.125-1.125V11.25c0-4.46-3.243-8.161-7.5-8.876a9.06 9.06 0 0 0-1.5-.124H9.375c-.621 0-1.125.504-1.125 1.125v3.5m7.5 10.375H9.375a1.125 1.125 0 0 1-1.125-1.125v-9.25m12 6.625v-1.875a3.375 3.375 0 0 0-3.375-3.375h-1.5a1.125 1.125 0 0 1-1.125-1.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H9.75" />
+                        </svg>
+                        Enhance with AI
+                    </a>
+                </div>
+                <div class="p-8 flex-1">
+                    <div class="flex items-center">
+                        <svg width="35" height="35" viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg"
+                            class="mr-4">
+                            <circle cx="17.5" cy="17.5" r="17.5" fill="#3C3C3C" />
+                            <path d="M15.3125 11.1695L22.2727 17.8977L15.3125 24.626" stroke="white"
+                                stroke-width="2.91667" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+
+
+                        <h2 class="text-4xl font-medium">
+                            What does this code do?
+                        </h2>
+                    </div>
+
+                    <p class="text-gray-600 text-lg mt-2">
+                        The following code does:
+                    </p>
+                    <div class="divide-y mt-4">
+
+                        <div class="flex items-center">
+                            <svg width="27" height="27" viewBox="0 0 27 27" fill="none"
+                                xmlns="http://www.w3.org/2000/svg" class="mr-4 flex-shrink-0">
+                                <circle cx="13.5" cy="13.5" r="13.5" fill="#DBDBDB" />
+                                <path d="M11.8125 8.61649L17.1818 13.8068L11.8125 18.9972" stroke="#3C3C3C"
+                                    stroke-width="2.91667" stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+
+
+
+                            <div class="text-xl ml-4 py-4">
+                                The code above is a function definition.
+                            </div>
+
+
+                        </div>
+
+                        <div class="flex items-center py-3">
+                            <svg width="27" height="27" viewBox="0 0 27 27" fill="none"
+                                xmlns="http://www.w3.org/2000/svg" class="mr-4 flex-shrink-0">
+                                <circle cx="13.5" cy="13.5" r="13.5" fill="#DBDBDB" />
+                                <path d="M11.8125 8.61649L17.1818 13.8068L11.8125 18.9972" stroke="#3C3C3C"
+                                    stroke-width="2.91667" stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+
+
+
+                            <div class="text-xl ml-4 py-3">
+                                It defines a new function called HelloWorld
+                                that takes a single argument called text
+                            </div>
+                        </div>
+                        <div class="flex items-center py-3">
+                            <svg width="27" height="27" viewBox="0 0 27 27" fill="none"
+                                xmlns="http://www.w3.org/2000/svg" class="mr-4 flex-shrink-0">
+                                <circle cx="13.5" cy="13.5" r="13.5" fill="#DBDBDB" />
+                                <path d="M11.8125 8.61649L17.1818 13.8068L11.8125 18.9972" stroke="#3C3C3C"
+                                    stroke-width="2.91667" stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+
+
+
+                            <div class="text-xl ml-4 py-3">
+                                The body of the function is a single line of code that
+                                prints out the value of text if it is defined, or `Hello
+                                World` if it is not defined.
+
+                            </div>
+                        </div>
+                        <a href="" class=" mt-5 py-3 px-6 transition bg-gray-100
+                        hover:bg-gray-200 active bg-gradient-to-r
+                        rounded-md flex md:inline-flex font-medium text-lg
+                        cursor-pointer">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="w-6 h-6 mr-4">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M15.75 17.25v3.375c0 .621-.504 1.125-1.125 1.125h-9.75a1.125 1.125 0 0 1-1.125-1.125V7.875c0-.621.504-1.125 1.125-1.125H6.75a9.06 9.06 0 0 1 1.5.124m7.5 10.376h3.375c.621 0 1.125-.504 1.125-1.125V11.25c0-4.46-3.243-8.161-7.5-8.876a9.06 9.06 0 0 0-1.5-.124H9.375c-.621 0-1.125.504-1.125 1.125v3.5m7.5 10.375H9.375a1.125 1.125 0 0 1-1.125-1.125v-9.25m12 6.625v-1.875a3.375 3.375 0 0 0-3.375-3.375h-1.5a1.125 1.125 0 0 1-1.125-1.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H9.75" />
+                            </svg>
+                            Copy Content
+                        </a>
+                    </div>
+                </div>
+    </section>
+    <section class="bg-gradient-to-r from-purple-500 to-indigo-700 
+    -mt-48 py-4 pt-48 relative">
+       
+    <img src="./purple-right-top-shapes.svg" alt="shapes" width="224"
+            class="absolute right-0 top-80">
+        
+        <div class="container mx-auto">
+            <div class="flex">
+                <a href="" class="mt-3 py-4 px-16 transition
+               bg-white text-purple-600 rounded-2xl
+                flex md:inline-flex text-xl font-medium
+                cursor-pointer hover:shadow-lg items-center mr-4">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="w-6 h-6 mr-4">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M7.5 8.25h9m-9 3H12m-9.75 1.51c0 1.6 1.123 2.994 2.707 3.227 1.129.166 2.27.293 3.423.379.35.026.67.21.865.501L12 21l2.755-4.133a1.14 1.14 0 0 1 .865-.501 48.172 48.172 0 0 0 3.423-.379c1.584-.233 2.707-1.626 2.707-3.228V6.741c0-1.602-1.123-2.995-2.707-3.228A48.394 48.394 0 0 0 12 3c-2.392 0-4.744.175-7.043.513C3.373 3.746 2.25 5.14 2.25 6.741v6.018Z" />
+                        </svg>
+                Explain Code
+            </a>
+            <a href="" class="mt-3 py-4 px-10 transition
+            bg-purple-400 text-purple-800 hover:bg-purple-200 rounded-2xl
+             flex md:inline-flex text-xl font-medium
+             cursor-pointer hover:shadow-lg items-center mr-4">
+             <svg class="w-8 h-8 mr-4" viewBox="0 0 29 17" stroke="currentColor" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0.625 8.56977C0.625 7.04352 0.85625 5.61748 1.31875 4.28856C1.7639 3.00411 2.45161 1.81711 3.3445 0.792064H5.60458C4.75883 1.89361 4.10713 3.13133 3.6775 4.45198C2.81223 7.11483 2.81601 9.98383 3.68829 12.6444C4.13537 13.9548 4.76746 15.145 5.58454 16.2087H3.34912C2.45248 15.2126 1.76376 14.0474 1.32338 12.7816C0.85288 11.4277 0.618224 10.0031 0.629625 8.56977" fill="#1F00BB"/>
+                <path d="M11.4167 14.6667C11.4167 15.0755 11.2543 15.4677 10.9651 15.7568C10.676 16.0459 10.2839 16.2083 9.87501 16.2083C9.46613 16.2083 9.07401 16.0459 8.78489 15.7568C8.49577 15.4677 8.33334 15.0755 8.33334 14.6667C8.33334 14.2578 8.49577 13.8657 8.78489 13.5765C9.07401 13.2874 9.46613 13.125 9.87501 13.125C10.2839 13.125 10.676 13.2874 10.9651 13.5765C11.2543 13.8657 11.4167 14.2578 11.4167 14.6667Z" fill="#1F00BB"/>
+                <path d="M17.9687 0.811713L17.5987 4.13555L20.9704 3.19513L21.2679 5.46138L18.1969 5.67721L20.2119 8.35972L18.1615 9.4543L16.7524 6.62842L15.519 9.43734L13.3915 8.36126L15.3895 5.67876L12.337 5.44442L12.6916 3.18742L15.9908 4.12784L15.6208 0.800921H17.9857" fill="#1F00BB"/>
+                <path d="M28.375 8.56938C28.375 10.0833 28.1407 11.4924 27.6705 12.7997C27.2318 14.0585 26.5468 15.2172 25.6555 16.2083H23.4155C24.2356 15.1326 24.8736 13.9295 25.304 12.6471C25.7511 11.329 25.9731 9.96459 25.9731 8.54625C25.9731 7.14334 25.7573 5.77588 25.3225 4.44542C24.8941 3.12486 24.2434 1.88711 23.3985 0.785502H25.657C26.5553 1.81338 27.2431 3.00764 27.6813 4.3005C28.1438 5.62634 28.375 7.04775 28.375 8.56167" fill="#1F00BB"/>
+                </svg>
+                
+             Regax
+         </a>
+         <a href="" class="mt-3 py-4 px-12  transition
+         bg-purple-400 text-purple-800 hover:bg-purple-200 rounded-2xl
+          flex md:inline-flex text-xl font-medium
+          cursor-pointer hover:shadow-lg items-center mr-4">
+          <svg class="w-8 h-8 mr-4"  stroke="currentColor" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M4 17L8 13M8 7H20H8ZM20 7L16 3L20 7ZM20 7L16 11L20 7ZM16 17H4H16ZM4 17L8 21L4 17Z" stroke="#381BCB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+            
+          Convert Code
+        </a>
+        <a href="" class="mt-3 py-4 px-12 transition
+        bg-purple-400 text-purple-800 hover:bg-purple-200 rounded-2xl
+         flex md:inline-flex text-xl font-medium
+         cursor-pointer hover:shadow-lg items-center mr-4">
+         <svg class="w-8 h-8 mr-4"  stroke="currentColor"  viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M15.232 5.232L18.768 8.768L15.232 5.232ZM16.732 3.732C17.2009 3.2631 17.8369 2.99967 18.5 2.99967C19.1631 2.99967 19.7991 3.2631 20.268 3.732C20.7369 4.2009 21.0003 4.83687 21.0003 5.5C21.0003 6.16313 20.7369 6.7991 20.268 7.268L6.5 21.036H3V17.464L16.732 3.732V3.732Z" stroke="#381BCB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+            
+         Fix Grammar
+        </a>
+        <a href="" class="mt-3 py-4 px-10 transition
+        bg-purple-400 text-purple-800 hover:bg-purple-200 rounded-2xl
+         flex md:inline-flex text-xl font-medium
+         cursor-pointer hover:shadow-lg items-center mr-4">
+         <svg class="w-8 h-8 mr-4"  stroke="currentColor" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M9 16H9.01M9 5H7C6.46957 5 5.96086 5.21071 5.58579 5.58579C5.21071 5.96086 5 6.46957 5 7V19C5 19.5304 5.21071 20.0391 5.58579 20.4142C5.96086 20.7893 6.46957 21 7 21H17C17.5304 21 18.0391 20.7893 18.4142 20.4142C18.7893 20.0391 19 19.5304 19 19V7C19 6.46957 18.7893 5.96086 18.4142 5.58579C18.0391 5.21071 17.5304 5 17 5H15H9ZM9 5C9 5.53043 9.21071 6.03914 9.58579 6.41421C9.96086 6.78929 10.4696 7 11 7H13C13.5304 7 14.0391 6.78929 14.4142 6.41421C14.7893 6.03914 15 5.53043 15 5H9ZM9 5C9 4.46957 9.21071 3.96086 9.58579 3.58579C9.96086 3.21071 10.4696 3 11 3H13C13.5304 3 14.0391 3.21071 14.4142 3.58579C14.7893 3.96086 15 4.46957 15 5H9ZM12 12H15H12ZM12 16H15H12ZM9 12H9.01H9Z" stroke="#381BCB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+            
+         Todo
+        </a>
+   
+    
+    
+        <img src="./openAI.svg" alt="" class="mt-3 py-4 px-8">
+            </div>
+            
+            
+        </div>
+        <div class="container mx-auto flex">
+            
+            <a href="" class="text-purple-400 pr-96 py-2 hover:underline">Examples of AI for Programming
+
+            </a>
+            <a href="" class="text-purple-400 pl-48 py-2 hover:underline">Examples of AI for Content
+
+            </a>
+            <a href="" class="text-purple-400 pl-72 hover:underline py-2">Powered By</a>
+          
+        </div>
+        
+            
+        <div class="container mx-auto justify-between relative text-center">
+              <a href="" class="px-4 py-3 md:px-10 md:py-5 md:text-2xl rounded-3xl 
+        border-t-2 bg-white text-purple-700 cursor-pointer 
+        inline-flex items-center mt-12">
+       <svg class="w-8 h-8 mr-4" viewBox="0 0 31 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M22.7755 11.3877V15.1836V11.3877ZM22.7755 15.1836V18.9796V15.1836ZM22.7755 15.1836H26.5714H22.7755ZM22.7755 15.1836H18.9796H22.7755ZM16.449 8.85711C16.449 10.1994 15.9157 11.4868 14.9666 12.4359C14.0174 13.3851 12.7301 13.9183 11.3878 13.9183C10.0454 13.9183 8.75809 13.3851 7.80892 12.4359C6.85976 11.4868 6.32653 10.1994 6.32653 8.85711C6.32653 7.51479 6.85976 6.22744 7.80892 5.27828C8.75809 4.32912 10.0454 3.79588 11.3878 3.79588C12.7301 3.79588 14.0174 4.32912 14.9666 5.27828C15.9157 6.22744 16.449 7.51479 16.449 8.85711V8.85711ZM3.79591 25.3061C3.79591 23.2926 4.59577 21.3616 6.01951 19.9378C7.44326 18.5141 9.37427 17.7143 11.3878 17.7143C13.4012 17.7143 15.3322 18.5141 16.756 19.9378C18.1797 21.3616 18.9796 23.2926 18.9796 25.3061V26.5714H3.79591V25.3061Z" stroke="#381BCB" stroke-width="2.53061" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        
+       Free Signup
+
+    </a>
+    
+    <img src="./purple-left-dots.svg" alt="" width="258"
+    class="absolute -left-72 top-56 ">
+    <h1 class="text-4xl md:text-7xl relative text-transparent mt-24
+    bg-clip-text bg-gradient-to-r from-cyan-500
+    to-yellow-400  text-center">Use the latest<span class="font-bold"> AI</span> features</h1>
+
+    
+    <p class="md:text-2xl  text-white text-center
+    max-w-3xl mx-auto mt-4">Start enhancing a range of tasks using AI, from writing emails, code,
+         or blogs, to rephrasing paragraph’s you just want to reword!</p>
+       
+        
+         <div class="container mx-auto  mt-16">
+            <div class="flex">
+                <div class="w-[700px] h-[145px] bg-white rounded-[25px] ">
+                    <div class=" bg-white border rounded-3xl flex"> 
+                        <div class="flex">
+                        <svg class="w-20 h-20 mr-6 mt-10 ml-12" viewBox="0 0 67 61" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M16.6666 17.0002H49.9999H16.6666ZM16.6666 30.3335H29.9999H16.6666ZM33.3333 57.0002L19.9999 43.6669H9.99992C8.23181 43.6669 6.53612 42.9645 5.28587 41.7142C4.03563 40.464 3.33325 38.7683 3.33325 37.0002V10.3335C3.33325 8.56543 4.03563 6.86973 5.28587 5.61949C6.53612 4.36925 8.23181 3.66687 9.99992 3.66687H56.6666C58.4347 3.66687 60.1304 4.36925 61.3806 5.61949C62.6309 6.86973 63.3333 8.56543 63.3333 10.3335V37.0002C63.3333 38.7683 62.6309 40.464 61.3806 41.7142C60.1304 42.9645 58.4347 43.6669 56.6666 43.6669H46.6666L33.3333 57.0002Z" stroke="black" stroke-width="6.66667" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                        <div class="block">
+                               <p class=" text-neutral-600 text-opacity-60 text-2xl font-medium font-['Inter']  mr-60 mt-4">Content</p>
+                               <p class="text-black text-6xl font-normal font-['Inter']">Explain Code</p>
+                               <p class="w-[353px] text-black mb-4 text-opacity-60 text-xl font-normal font-['Inter']">Explain some code based on the syntax
+                                <span class="mr-60">provided</span> </p>
+                            </div> 
+                              
+                            </div>
+            </div>
+            <div class="w-[700px] h-[145px] bg-white rounded-[25px] shadow ml-24">
+                <div class="bg-white border rounded-2xl flex">
+                    <div>
+                        <svg class="w-20 h-20 mr-6 mt-10 ml-12" viewBox="0 0 67 61" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M16.6666 17.0002H49.9999H16.6666ZM16.6666 30.3335H29.9999H16.6666ZM33.3333 57.0002L19.9999 43.6669H9.99992C8.23181 43.6669 6.53612 42.9645 5.28587 41.7142C4.03563 40.464 3.33325 38.7683 3.33325 37.0002V10.3335C3.33325 8.56543 4.03563 6.86973 5.28587 5.61949C6.53612 4.36925 8.23181 3.66687 9.99992 3.66687H56.6666C58.4347 3.66687 60.1304 4.36925 61.3806 5.61949C62.6309 6.86973 63.3333 8.56543 63.3333 10.3335V37.0002C63.3333 38.7683 62.6309 40.464 61.3806 41.7142C60.1304 42.9645 58.4347 43.6669 56.6666 43.6669H46.6666L33.3333 57.0002Z" stroke="black" stroke-width="6.66667" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                        <div class="block">
+                               <p class=" text-neutral-600 text-opacity-60 text-2xl font-medium font-['Inter']  mr-60 mt-4">Content</p>
+                               <p class="text-black text-6xl font-normal font-['Inter']">Explain Code</p>
+                               <p class="w-[353px] text-black mb-4 text-opacity-60 text-xl font-normal font-['Inter']">Explain some code based on the syntax
+                                <span class="mr-60">provided</span> </p>
+                            </div> 
+            </div>
+            </div>
+            </div> 
+        </div>
+        <div class="container mx-auto  mt-16">
+            <div class="flex">
+                <div class="w-[700px] h-[145px] bg-white rounded-[25px] ">
+                    <div class=" bg-white border rounded-3xl flex"> 
+                        <div class="flex">
+                        <svg class="w-20 h-20 mr-6 mt-10 ml-12" viewBox="0 0 67 61" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M16.6666 17.0002H49.9999H16.6666ZM16.6666 30.3335H29.9999H16.6666ZM33.3333 57.0002L19.9999 43.6669H9.99992C8.23181 43.6669 6.53612 42.9645 5.28587 41.7142C4.03563 40.464 3.33325 38.7683 3.33325 37.0002V10.3335C3.33325 8.56543 4.03563 6.86973 5.28587 5.61949C6.53612 4.36925 8.23181 3.66687 9.99992 3.66687H56.6666C58.4347 3.66687 60.1304 4.36925 61.3806 5.61949C62.6309 6.86973 63.3333 8.56543 63.3333 10.3335V37.0002C63.3333 38.7683 62.6309 40.464 61.3806 41.7142C60.1304 42.9645 58.4347 43.6669 56.6666 43.6669H46.6666L33.3333 57.0002Z" stroke="black" stroke-width="6.66667" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                        <div class="block">
+                               <p class=" text-neutral-600 text-opacity-60 text-2xl font-medium font-['Inter']  mr-60 mt-4">Content</p>
+                               <p class="text-black text-6xl font-normal font-['Inter']">Explain Code</p>
+                               <p class="w-[353px] text-black mb-4 text-opacity-60 text-xl font-normal font-['Inter']">Explain some code based on the syntax
+                                <span class="mr-60">provided</span> </p>
+                            </div> 
+                              
+                            </div>
+            </div>
+            <div class="w-[700px] h-[145px] bg-white rounded-[25px] shadow ml-24">
+                <div class="bg-white border rounded-2xl flex">
+                    <div>
+                        <svg class="w-20 h-20 mr-6 mt-10 ml-12" viewBox="0 0 67 61" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M16.6666 17.0002H49.9999H16.6666ZM16.6666 30.3335H29.9999H16.6666ZM33.3333 57.0002L19.9999 43.6669H9.99992C8.23181 43.6669 6.53612 42.9645 5.28587 41.7142C4.03563 40.464 3.33325 38.7683 3.33325 37.0002V10.3335C3.33325 8.56543 4.03563 6.86973 5.28587 5.61949C6.53612 4.36925 8.23181 3.66687 9.99992 3.66687H56.6666C58.4347 3.66687 60.1304 4.36925 61.3806 5.61949C62.6309 6.86973 63.3333 8.56543 63.3333 10.3335V37.0002C63.3333 38.7683 62.6309 40.464 61.3806 41.7142C60.1304 42.9645 58.4347 43.6669 56.6666 43.6669H46.6666L33.3333 57.0002Z" stroke="black" stroke-width="6.66667" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                        <div class="block">
+                               <p class=" text-neutral-600 text-opacity-60 text-2xl font-medium font-['Inter']  mr-60 mt-4">Content</p>
+                               <p class="text-black text-6xl font-normal font-['Inter']">Explain Code</p>
+                               <p class="w-[353px] text-black mb-4 text-opacity-60 text-xl font-normal font-['Inter']">Explain some code based on the syntax
+                                <span class="mr-60">provided</span> </p>
+                            </div> 
+            </div>
+            </div>
+            </div> 
+        </div>
+        <div class="container mx-auto  mt-16">
+            <div class="flex">
+                <div class="w-[700px] h-[145px] bg-white rounded-[25px] ">
+                    <div class=" bg-white border rounded-3xl flex"> 
+                        <div class="flex">
+                        <svg class="w-20 h-20 mr-6 mt-10 ml-12" viewBox="0 0 67 61" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M16.6666 17.0002H49.9999H16.6666ZM16.6666 30.3335H29.9999H16.6666ZM33.3333 57.0002L19.9999 43.6669H9.99992C8.23181 43.6669 6.53612 42.9645 5.28587 41.7142C4.03563 40.464 3.33325 38.7683 3.33325 37.0002V10.3335C3.33325 8.56543 4.03563 6.86973 5.28587 5.61949C6.53612 4.36925 8.23181 3.66687 9.99992 3.66687H56.6666C58.4347 3.66687 60.1304 4.36925 61.3806 5.61949C62.6309 6.86973 63.3333 8.56543 63.3333 10.3335V37.0002C63.3333 38.7683 62.6309 40.464 61.3806 41.7142C60.1304 42.9645 58.4347 43.6669 56.6666 43.6669H46.6666L33.3333 57.0002Z" stroke="black" stroke-width="6.66667" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                        <div class="block">
+                               <p class=" text-neutral-600 text-opacity-60 text-2xl font-medium font-['Inter']  mr-60 mt-4">Content</p>
+                               <p class="text-black text-6xl font-normal font-['Inter']">Explain Code</p>
+                               <p class="w-[353px] text-black mb-4 text-opacity-60 text-xl font-normal font-['Inter']">Explain some code based on the syntax
+                                <span class="mr-60">provided</span> </p>
+                            </div> 
+                              
+                            </div>
+            </div>
+            <div class="w-[700px] h-[145px] bg-white rounded-[25px] shadow ml-24">
+                <div class="bg-white border rounded-2xl flex">
+                    <div>
+                        <svg class="w-20 h-20 mr-6 mt-10 ml-12" viewBox="0 0 67 61" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M16.6666 17.0002H49.9999H16.6666ZM16.6666 30.3335H29.9999H16.6666ZM33.3333 57.0002L19.9999 43.6669H9.99992C8.23181 43.6669 6.53612 42.9645 5.28587 41.7142C4.03563 40.464 3.33325 38.7683 3.33325 37.0002V10.3335C3.33325 8.56543 4.03563 6.86973 5.28587 5.61949C6.53612 4.36925 8.23181 3.66687 9.99992 3.66687H56.6666C58.4347 3.66687 60.1304 4.36925 61.3806 5.61949C62.6309 6.86973 63.3333 8.56543 63.3333 10.3335V37.0002C63.3333 38.7683 62.6309 40.464 61.3806 41.7142C60.1304 42.9645 58.4347 43.6669 56.6666 43.6669H46.6666L33.3333 57.0002Z" stroke="black" stroke-width="6.66667" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                        <div class="block">
+                               <p class=" text-neutral-600 text-opacity-60 text-2xl font-medium font-['Inter']  mr-60 mt-4">Content</p>
+                               <p class="text-black text-6xl font-normal font-['Inter']">Explain Code</p>
+                               <p class="w-[353px] text-black mb-4 text-opacity-60 text-xl font-normal font-['Inter']">Explain some code based on the syntax
+                                <span class="mr-60">provided</span> </p>
+                            </div> 
+            </div>
+            </div>
+            </div> 
+        </div>
+        
+        
+    </section>
+    
+
+</body>
+
+</html>
